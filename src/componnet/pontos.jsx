@@ -1,8 +1,8 @@
-function pontos() {
+function pontos(props) {
     return (
         <div className="pontos">
-            <div className="button"><p>:D</p></div>
-            <div className="button"><p>:(</p></div>
+            <div className="button" onClick={() => props.attHome()} ><p>:D</p></div>
+            <div className="button"onClick={() => props.attGuest()} ><p>:(</p></div>
         </div>
     );
 };

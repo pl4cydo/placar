@@ -45,6 +45,10 @@
   margin: 50px;
 }
 
+.numeros h2:hover {
+  color: whitesmoke;
+}
+
 .times{
   height: 20%;
   width: 100%;
